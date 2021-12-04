@@ -1,0 +1,85 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.schl_heading {
+  background: #39639b;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.schl_heading h1 {
+  color: white;
+  padding-top: 10px;
+}
+
+.main_body {
+  background: cornsilk;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 92px;
+  right: 10px;
+}
+.links {
+  background: #323232;
+  height: 650px;
+  width: 15%;
+  display: inline-block;
+
+  padding-bottom: 50px;
+}
+
+.links ul {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.links li {
+  color: black;
+
+  list-style: none;
+}
+.links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+   
+    color:#0080ff;
+}
+.content {
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  display: inline-block;
+  text-align: center;
+}
+
+.teachers p {
+  padding-top: 5px;
+}
+.teachers ol {
+  display: inline-block;
+}
+
+.teachers ul {
+  display: inline-block;
+}
+.student_info {
+  padding-left: 400px;
+}
+table {
+  width: 50%;
+}
+
+
+
+marquee  {
+  
+  color:red;
+}
