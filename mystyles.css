@@ -13,21 +13,24 @@ body {
 }
 
 .schl_heading h1 {
+ 
+  padding-left: 150px;
   color: white;
   padding-top: 10px;
 }
 
 .main_body {
   background: cornsilk;
-  position: relative;
-  height: 100%;
+  margin-top: 100px;  
+  position: absolute;
+  height: 620px;
   width: 100%;
-  top: 92px;
-  right: 10px;
+  top:0;
+  left: 0;
 }
 .links {
   background: #323232;
-  height: 650px;
+  height: 571px;
   width: 15%;
   display: inline-block;
 
@@ -49,8 +52,7 @@ body {
 }
 a:hover,
 a:active {
-   
-    color:#0080ff;
+  color: #0080ff;
 }
 .content {
   position: absolute;
@@ -64,10 +66,12 @@ a:active {
   padding-top: 5px;
 }
 .teachers ol {
+  text-align: justify;
   display: inline-block;
 }
 
 .teachers ul {
+  text-align: justify;
   display: inline-block;
 }
 .student_info {
@@ -77,9 +81,13 @@ table {
   width: 50%;
 }
 
-
-
-marquee  {
-  
-  color:red;
+.news1 {
+  font-weight: bold;
+  margin-top: 50px;
+  color: #BC243C
 }
+.news2 {
+  font-weight: bold;
+  color: #6B5B95;
+}
+
