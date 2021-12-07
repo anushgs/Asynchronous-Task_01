@@ -13,7 +13,7 @@ body {
 }
 
 .schl_heading h1 {
-  padding-left: 250px;
+  /* padding-left: 100px; */
   color: white;
   padding-top: 10px;
 }
@@ -58,18 +58,21 @@ a:active {
   height: 100%;
   width: 85%;
   display: inline-block;
-  text-align: center;
+  
 }
 .content h2 {
   margin-top: 100px;
   padding-top: 20px;
+  margin-left: 500px;
 }
 
-.teachers p {
-  padding-top: 5px;
+.teachers h3 {
+  margin-left: 470px;
 }
+
 .teachers ol {
   text-align: justify;
+  margin-left: 395px;
   display: inline-block;
 }
 
@@ -78,7 +81,7 @@ a:active {
   display: inline-block;
 }
 .student_info {
-  margin-left: 450px;
+  margin-left: 295px;
 }
 table {
   width: 50%;
